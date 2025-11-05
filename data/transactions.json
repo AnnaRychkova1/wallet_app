@@ -1,0 +1,149 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "type": "Credit",
+      "name": "Apple",
+      "description": "Card Number Used",
+      "amount": 140.06,
+      "previousAmount": 120.5,
+      "date": "2025-10-30T23:15:00",
+      "pending": true,
+      "authorizedUser": "Diana"
+    },
+    {
+      "id": 2,
+      "type": "Payment",
+      "name": "Target",
+      "description": "JPMorgan Chase Bank Card top-up",
+      "amount": 99.71,
+      "previousAmount": 120.5,
+      "date": "2025-11-05T18:42:15"
+    },
+    {
+      "id": 3,
+      "type": "Credit",
+      "name": "IKEA",
+      "description": "Round Rock, TX",
+      "amount": 21.61,
+      "previousAmount": 18.88,
+      "date": "2025-11-04T09:15:49"
+    },
+    {
+      "id": 4,
+      "type": "Credit",
+      "name": "Apple",
+      "description": "Card Number Used",
+      "amount": 140.06,
+      "previousAmount": 120.5,
+      "date": "2025-11-03T22:05:33",
+      "pending": true,
+      "authorizedUser": "Diana"
+    },
+    {
+      "id": 5,
+      "type": "Payment",
+      "name": "Target",
+      "description": "JPMorgan Chase Bank Card top-up JPMorgan Chase Bank Card top-up",
+      "amount": 99.71,
+      "previousAmount": 120.5,
+      "date": "2025-11-02T14:27:10"
+    },
+    {
+      "id": 6,
+      "type": "Credit",
+      "name": "IKEA",
+      "description": "Round Rock, TX",
+      "amount": 21.61,
+      "previousAmount": 18.88,
+      "date": "2025-11-01T08:51:22"
+    },
+    {
+      "id": 7,
+      "type": "Credit",
+      "name": "Apple",
+      "description": "Card Number Used",
+      "amount": 140.06,
+      "previousAmount": 120.5,
+      "date": "2025-10-31T20:11:58",
+      "pending": true,
+      "authorizedUser": "Diana"
+    },
+    {
+      "id": 8,
+      "type": "Payment",
+      "name": "Target",
+      "description": "JPMorgan Chase Bank Card top-up",
+      "amount": 99.71,
+      "previousAmount": 120.5,
+      "date": "2025-10-30T13:44:09"
+    },
+    {
+      "id": 9,
+      "type": "Credit",
+      "name": "IKEA",
+      "description": "Round Rock, TX",
+      "amount": 21.61,
+      "previousAmount": 18.88,
+      "date": "2025-10-29T07:21:44"
+    },
+    {
+      "id": 10,
+      "type": "Credit",
+      "name": "Apple",
+      "description": "Card Number Used",
+      "amount": 140.06,
+      "previousAmount": 120.5,
+      "date": "2025-10-28T16:33:12",
+      "pending": true,
+      "authorizedUser": "Diana"
+    },
+    {
+      "id": 11,
+      "type": "Payment",
+      "name": "Target",
+      "description": "JPMorgan Chase Bank Card top-up",
+      "amount": 99.71,
+      "previousAmount": 120.5,
+      "date": "2025-10-27T10:02:55"
+    },
+    {
+      "id": 12,
+      "type": "Credit",
+      "name": "IKEA",
+      "description": "Round Rock, TX",
+      "amount": 21.61,
+      "previousAmount": 18.88,
+      "date": "2025-10-26T21:48:37"
+    },
+    {
+      "id": 13,
+      "type": "Credit",
+      "name": "Apple",
+      "description": "Card Number Used",
+      "amount": 110.06,
+      "previousAmount": 120.5,
+      "date": "2025-10-25T11:19:03",
+      "pending": true,
+      "authorizedUser": "Diana"
+    },
+    {
+      "id": 14,
+      "type": "Payment",
+      "name": "Target",
+      "description": "JPMorgan Chase Bank Card top-up",
+      "amount": 99.71,
+      "previousAmount": 120.5,
+      "date": "2025-10-24T15:55:20"
+    },
+    {
+      "id": 15,
+      "type": "Credit",
+      "name": "IKEA",
+      "description": "Round Rock, TX",
+      "amount": 21.61,
+      "previousAmount": 18.88,
+      "date": "2025-10-23T09:12:40"
+    }
+  ]
+}
