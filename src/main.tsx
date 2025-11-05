@@ -1,11 +1,13 @@
-import { StrictMode } from "react";
+import React, { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import "./index.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import App from "./App.tsx";
+import App from "./App";
 
-createRoot(document.getElementById("root")!).render(
+const root = createRoot(document.getElementById("root")!);
+
+root.render(
   <StrictMode>
     <BrowserRouter>
       <App />
