@@ -10,7 +10,7 @@ const TransactionsList = () => {
   const [balance, setBalance] = useState<number>(0);
 
   useEffect(() => {
-    fetch("/data/transactions.json")
+    fetch(`${import.meta.env.BASE_URL}data/transactions.json`)
       .then((res) => res.json())
       .then((data) => {
         setTransactions(data.transactions);

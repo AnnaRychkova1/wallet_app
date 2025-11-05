@@ -9,7 +9,7 @@ const TransactionDetail = () => {
   const [tx, setTx] = useState<Transaction | null>(null);
 
   useEffect(() => {
-    fetch("/data/transactions.json")
+    fetch(`${import.meta.env.BASE_URL}data/transactions.json`)
       .then((res) => res.json())
       .then((data) => {
         const transaction = data.transactions.find(
