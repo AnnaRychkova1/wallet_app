@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import CardBalanceBlock from "./CardBalanceBlock";
-import NoPaymentDueBlock from "./NoPaymentDueBlock";
-import DailyPointsBlock from "./DailyPointsBlock";
-import TransactionItem from "./TransactionItem";
+import CardBalanceBlock from "@/components/CardBalanceBlock";
+import NoPaymentDueBlock from "@/components/NoPaymentDueBlock";
+import DailyPointsBlock from "@/components/DailyPointsBlock";
+import TransactionItem from "@/components/TransactionItem";
 import type { Transaction } from "@/types/Transaction";
 
 const TransactionsList = () => {
@@ -10,7 +10,7 @@ const TransactionsList = () => {
   const [balance, setBalance] = useState<number>(0);
 
   useEffect(() => {
-    fetch("/src/data/transactions.json")
+    fetch("/data/transactions.json")
       .then((res) => res.json())
       .then((data) => {
         setTransactions(data.transactions);

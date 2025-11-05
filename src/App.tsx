@@ -1,7 +1,6 @@
 import { Route, Routes } from "react-router-dom";
-import "./index.css";
-import TransactionsList from "./components/TransactionsList";
-import TransactionDetail from "./components/TransactionDetail";
+import TransactionsList from "@/components/TransactionsList";
+import TransactionDetail from "@/components//TransactionDetail";
 
 function App() {
   return (

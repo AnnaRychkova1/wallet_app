@@ -9,7 +9,7 @@ const TransactionDetail = () => {
   const [tx, setTx] = useState<Transaction | null>(null);
 
   useEffect(() => {
-    fetch("/src/data/transactions.json")
+    fetch("/data/transactions.json")
       .then((res) => res.json())
       .then((data) => {
         const transaction = data.transactions.find(
