@@ -1,5 +1,6 @@
-const CardBalanceBlock = ({ balance }: { balance: number }) => {
+const CardBalanceBlock = () => {
   const limit = 1500;
+  const balance = parseFloat((Math.random() * limit).toFixed(2));
   const available = (limit - balance).toFixed(2);
 
   return (

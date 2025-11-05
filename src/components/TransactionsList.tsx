@@ -7,17 +7,12 @@ import type { Transaction } from "@/types/Transaction";
 
 const TransactionsList = () => {
   const [transactions, setTransactions] = useState<Transaction[]>([]);
-  const [balance, setBalance] = useState<number>(0);
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/transactions.json`)
       .then((res) => res.json())
       .then((data) => {
         setTransactions(data.transactions);
-        const total = data.transactions
-          .filter((t: Transaction) => t.type === "Credit")
-          .reduce((sum: number, t: Transaction) => sum + Math.abs(t.amount), 0);
-        setBalance(total);
       });
   }, []);
 
@@ -25,7 +20,7 @@ const TransactionsList = () => {
     <div className="p-4 bg-gray-200 text-gray-800 min-h-screen">
       <div className="grid grid-cols-2 gap-2 py-2">
         <div className="grid grid-rows-2 gap-2">
-          <CardBalanceBlock balance={balance} />
+          <CardBalanceBlock />
           <DailyPointsBlock />
         </div>
         <NoPaymentDueBlock />
