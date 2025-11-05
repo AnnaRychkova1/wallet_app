@@ -1,6 +1,6 @@
-import type { Transaction } from "../types/Transaction";
+import type { Transaction } from "@/types/Transaction";
 import { Link } from "react-router-dom";
-import { formatTxDate } from "../utils/formatDate";
+import { formatTxDate } from "@/utils/formatDate";
 
 const TransactionItem = ({ tx }: { tx: Transaction }) => {
   let changePercent: string | null = null;
@@ -39,7 +39,7 @@ const TransactionItem = ({ tx }: { tx: Transaction }) => {
             viewBox="0 0 192.756 192.756"
             id="ikea"
           >
-            <g fill-rule="evenodd" clip-rule="evenodd">
+            <g fillRule="evenodd" clipRule="evenodd">
               <path fill="#fff" d="M0 0h192.756v192.756H0V0z"></path>
               <path
                 fill="#2360a5"

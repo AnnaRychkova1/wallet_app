@@ -1,4 +1,4 @@
-import { calculateDailyPoints } from "../utils/calculatePoints";
+import { calculateDailyPoints } from "@/utils/calculatePoints";
 
 const DailyPointsBlock = () => {
   const points = calculateDailyPoints();

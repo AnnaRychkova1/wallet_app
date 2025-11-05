@@ -1,7 +1,7 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
-import type { Transaction } from "../types/Transaction";
-import { formatTxDate } from "../utils/formatDate";
+import type { Transaction } from "@/types/Transaction";
+import { formatTxDate } from "@/utils/formatDate";
 
 const TransactionDetail = () => {
   const { id } = useParams();

@@ -3,7 +3,7 @@ import CardBalanceBlock from "./CardBalanceBlock";
 import NoPaymentDueBlock from "./NoPaymentDueBlock";
 import DailyPointsBlock from "./DailyPointsBlock";
 import TransactionItem from "./TransactionItem";
-import type { Transaction } from "../types/Transaction";
+import type { Transaction } from "@/types/Transaction";
 
 const TransactionsList = () => {
   const [transactions, setTransactions] = useState<Transaction[]>([]);
